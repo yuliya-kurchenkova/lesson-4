@@ -1,0 +1,525 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .wrapper {
+        position: relative;
+        width: 1400px;
+        margin: 0 auto;
+        min-height: 100vh;
+        background: aqua;
+    }
+    
+    .container {
+        width: 81%;
+        margin: 0 auto;
+    }
+    
+    .header {
+        height: 712px;
+    }
+    
+    .header__container {
+        background: black;
+        height: 71px;
+        position: fixed;
+    }
+    
+    .logo {
+        padding-top: 21px;
+        margin-left: 150px;
+    }
+    
+    .header__nav {
+        display: inline-block;
+        margin-left: 582px;
+    }
+    
+    .header__link {
+        font-family: 'Open Sans', sans-serif;
+        color: wheat;
+        font-size: 14px;
+    }
+    /*-----------------------------------------------------------------------------------------Intro-----*/
+    
+    .intro {
+        height: 641px;
+        background: url(../img/city-header.png);
+        padding-left: 147px;
+        padding-top: 180px;
+    }
+    
+    .card {
+        width: 469px;
+        display: inline-block;
+    }
+    
+    h2 {
+        color: wheat;
+        font-size: 36px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+    }
+    
+    .line {
+        width: 64px;
+        height: 2px;
+        margin: 30px auto;
+        border: 0;
+        background: wheat;
+    }
+    
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        color: wheat;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .intro-butn {
+        margin-top: 33px;
+        padding: 15px 31px;
+        font-size: 15px;
+        font-weight: 500;
+        color: white;
+        background: transparent;
+        border: 2px solid #ffffff;
+    }
+    
+    .form {
+        width: 383px;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 1px;
+        background: dimgray;
+    }
+    
+    .form__input,
+    .form__button {
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 1px;
+        font-size: 16px;
+    }
+    
+    .form__title {
+        text-align: center;
+        margin-bottom: 32 px;
+        font-weight: normal;
+    }
+    
+    .form__group {
+        position: relative;
+        margin-bottom: 32px;
+        color: orange;
+    }
+    
+    .form__label {
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+    
+    .form__input {
+        width: 100%;
+        padding-bottom: 10px;
+        border: none;
+        border-bottom: 1px solid#e0e0e0;
+        background-color: white;
+        outline: none;
+    }
+    
+    .form__button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background-color: orange;
+        outline: none;
+    }
+    /*main---------------------------------------------------------------------*/
+    
+    .wrapper-features {
+        height: 596px;
+        background: white;
+    }
+    
+    .box {
+        width: 112px;
+        height: 112px;
+        background: orange;
+    }
+    
+    .features-butn {
+        margin-top: 33px;
+        padding: 15px 31px;
+        font-size: 15px;
+        font-weight: 500;
+        color: white;
+        background: transparent;
+        border: 2px solid #ffffff;
+        background: orange;
+    }
+    /* section---------------------------------------------------process-------------------*/
+    
+    .wrapper-process {
+        margin: 0 auto;
+        width: 1400px;
+        background: white;
+    }
+    
+    .container-process {
+        height: 590px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .process-box {
+        margin-right: 245px;
+    }
+    
+    .process {
+        margin-right: 352px;
+    }
+    
+    .process__title {
+        font-family: 'Raleway', sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+        color: #212121;
+        padding-top: 106px;
+        text-transform: uppercase;
+    }
+    
+    .process__line {
+        width: 64px;
+        height: 2px;
+        margin: 30px auto;
+        border: 0;
+        background: orange;
+    }
+    
+    .process__subtitle {
+        font-weight: 400;
+        font-size: 14px;
+        color: #86878B
+    }
+    
+    .box-process {
+        display: inline-block;
+        width: 350px;
+        margin: 0 16px;
+        padding-top: 80px;
+    }
+    
+    .title-process {
+        margin: 29px 0;
+        font-size: 20px;
+        font-weight: 700;
+        color: #333333;
+    }
+    
+    .icon {
+        width: 70px;
+        height: 70px;
+        border: 2px solid orange;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+    
+    .icon-lamp {
+        background: no-repeat center url(../img/lamp.png);
+    }
+    
+    .icon-keyboard {
+        background: no-repeat center url(../img/keyboard.png);
+    }
+    
+    .icon-lightning {
+        background: no-repeat center url(../img/lightning.png);
+    }
+    
+    .subtitle-process {
+        font-weight: 400;
+        font-size: 14px;
+        color: #86878B
+    }
+    /* section--------------------------------------------------pricing--------------------*/
+    
+    .price-wrapper {
+        height: 800px;
+        background: #F5F5F5;
+    }
+    
+    .pricing {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .pricing__title {
+        font-family: 'Raleway', sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+        color: #212121;
+        padding-top: 106px;
+        text-transform: uppercase;
+    }
+    
+    .pricing__line {
+        width: 64px;
+        height: 2px;
+        margin: 30px auto;
+        border: 0;
+        background: orange;
+    }
+    
+    .pricing__subtitle {
+        font-weight: 400;
+        font-size: 14px;
+        color: #86878B
+    }
+    /*--------------------------------------------------------------pricing-table---*/
+    
+    .box-list {
+        margin-left: 102px;
+        padding-top: 80px;
+        font-size: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .pricing-table {
+        display: inline-block;
+        background: white;
+        font-size: 14px;
+        margin: 0 20px;
+        width: 264px;
+    }
+    
+    .pricing-header {
+        color: white;
+        background: rgb(36, 34, 34);
+        text-align: center;
+    }
+    
+    .price-title {
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        padding: 18px;
+    }
+    
+    .price-border {
+        background: orange;
+    }
+    
+    span {
+        font-size: 35px
+    }
+    
+    .price-info {
+        padding: 9px;
+        font-style: italic;
+    }
+    
+    .pricing-list {
+        color: #86878B;
+        text-align: center;
+        font-size: 14px;
+        padding: 45px;
+    }
+    
+    .price-info1 {
+        text-align: center;
+        background: #ff6a00fa;
+    }
+    /*--seaction--------------------------------------------------------------Testimonials*/
+    
+    .testimonials {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        background: white;
+    }
+    
+    .testimonials__title {
+        font-family: 'Raleway', sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+        color: #212121;
+        padding-top: 106px;
+        text-transform: uppercase;
+    }
+    
+    .testimonials__line {
+        width: 64px;
+        height: 2px;
+        margin: 30px auto;
+        border: 0;
+        background: orange;
+    }
+    
+    .testimonials__subtitle {
+        font-weight: 400;
+        font-size: 14px;
+        color: #86878B
+    }
+    /*------------------------------------------------------------------------------------------------*/
+    
+    .test-wrapper {
+        padding: 55px 178px 101px;
+        font-size: 0;
+        background: white;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .test-box {
+        display: inline-block;
+        width: 223px;
+        margin: 0 18px;
+    }
+    
+    .test-text {
+        padding: 21px;
+        padding-left: 9px;
+        margin-bottom: 22px;
+        margin-top: 55px;
+        background: lavender;
+        color: #86878B;
+    }
+    /*-----------------------------------------------------Section--custom--------------------*/
+    
+    .custom {
+        height: 322px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        background: url(../img/city-custom.png);
+    }
+    
+    .custom__title {
+        font-size: 36px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        padding-top: 75px;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .custom__line {
+        width: 64px;
+        height: 2px;
+        margin: 30px auto;
+        border: 0;
+        background: white;
+    }
+    
+    .custom__subtitle {
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .custom__botn {
+        margin-top: 33px;
+        padding: 15px 31px;
+        font-size: 15px;
+        font-weight: 500;
+        color: white;
+        background: transparent;
+        border: 2px solid #ffffff;
+    }
+    /*---------------------------------------------------------------Section-contact----------------------*/
+    
+    .contact {
+        height: 613px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        background: white;
+    }
+    
+    .contact__title {
+        font-family: 'Raleway', sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+        color: #212121;
+        padding-top: 106px;
+        text-transform: uppercase;
+    }
+    
+    .contact__line {
+        width: 64px;
+        height: 2px;
+        margin: 30px auto;
+        border: 0;
+        background: orange;
+    }
+    
+    .contact__subtitle {
+        font-weight: 500;
+        font-size: 14px;
+        color: #86878B;
+    }
+    /*---------------------------------------------------------------------Contact--*/
+    
+    .contact-wrapper {
+        font-size: 0px;
+    }
+    
+    .contact-input {
+        display: inline-block;
+        width: 350px;
+        height: 100px;
+        margin: 0 16px;
+        padding-top: 91px;
+    }
+    
+    input {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #BDBDBD;
+        padding-top: 33px;
+    }
+    
+    .contact-message {}
+    
+    .cotact-butn {
+        margin-top: 33px;
+        padding: 15px 31px;
+        font-size: 15px;
+        font-weight: 500;
+        color: white;
+        background: transparent;
+        border: 2px solid #ffffff;
+        background: orange;
+    }
+    /*------------------------------------------------------------------Footer-------------------*/
+    
+    .footer {
+        padding: 38px 0 15px;
+        background: #000000;
+    }
+    
+    .footer ul {
+        font-size: 0;
+        list-style-type: none;
+        background: no-repeat center url(../img/socail-icon-sprite.png);
+    }
+    
+    .footer ul li {
+        display: inline-block;
+    }
+    
+    .footer ul li a {
+        display: block;
+        width: 18px;
+        height: 18px;
+        margin: 0 2.5px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    .copy {
+        margin-top: 15px;
+        font-size: 12px;
+        color: #ffffff;
+        opacity: .5;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
